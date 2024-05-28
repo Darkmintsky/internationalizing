@@ -1,0 +1,40 @@
+{
+    "helloWorld": "Hello World!",
+    "@helloWorld": {
+        "description": "プログラミングの挨拶。"
+    },
+    "clicksCount": "The number of clicks: {count}.",
+    "@clicksCount": {
+        "description": "クリックの回数を表示します。",
+        "placeholders": {
+            "count": {
+                "type": "int",
+                "example": "0"
+            }
+        }
+    },
+    "cartItems": "{count, plural, =0 {There is no item in your cart.} =1 {There is 1 item in your cart.} other {There are {count} items in your cart.}}",
+    "@cartItems": {
+        "description": "カート内の商品数を表示します。",
+        "placeholders": {
+            "count": {
+                "type": "int",
+                "example": "0"
+            }
+        }
+    },
+    "accountBalance": "Your account balance is {dollars} USD ({yen} JPY)です。",
+    "@accountBalance": {
+        "description": "ユーザーの口座残高を米ドルとその円換算で表示します。",
+        "placeholders": {
+            "dollars": {
+                "type": "int",
+                "example": "1000"
+            },
+            "yen": {
+                "type": "int",
+                "example": "145000"
+            }
+        }
+    }
+}
